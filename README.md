@@ -1,4 +1,4 @@
-# weather
+# Weather
 ##### Simple app presenting a 5-day weather forecast
 
 To build the app from command line:
