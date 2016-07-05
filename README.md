@@ -25,4 +25,4 @@ Grab Android Studio (https://developer.android.com/studio/index.html), open the 
 - Test app in Google's Firebase device matrix
 - Looked into creating a wearable component
 - For the paginated view, set a lightened version of the current temperature color as the screen backround, and have a transition effect between pages by fading from one color to the next.
-- Spice up the loading dialog with quotes like "Weather forecast for tonight: dark" -George Carlin
+- Spiced up the loading dialog with quotes like "Weather forecast for tonight: dark" -George Carlin
