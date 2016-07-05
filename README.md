@@ -2,19 +2,20 @@
 ##### Simple app presenting a 5-day weather forecast
 
 To build the app from command line:
-* make sure you have the JDK, Android SDK and Gradle in you `PATH` variable
+* make sure you have the JDK, Android SDK and Gradle in you `PATH`
 * have Android API level 23 platform downloaded and installed (which is the target SDK version to build against, altough the app is compatible all the way down to API level 15)
 * run the Gradle script `./gradlew assembleDebug` from the root of the repository
 * the resulting .apk should be under `app/build/outputs/apk/app-debug.apk`
-* transfer to a device of your choosing and enjoy
+* transfer to your device of choice and enjoy
 
 More info here https://developer.android.com/studio/build/building-cmdline.html
 
-# or
+### or
 
 Grab Android Studio (https://developer.android.com/studio/index.html), open the project and click "play".
 
-##### Wish I could have:
+ 
+##### I wish I could have:
 - Included a few more UI instrumentation tests
 - Optimised the layouts for different screen configurations
 - Added support for multiple locations
