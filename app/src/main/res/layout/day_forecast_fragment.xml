@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/page_padding_top">
+
+    <TextView
+        android:id="@+id/day_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_triple"
+        android:padding="@dimen/margin_regular"
+        android:textSize="@dimen/text_size_day_title"
+        tools:text="Tomorrow" />
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="@dimen/weather_icon_size_day"
+        android:layout_height="@dimen/weather_icon_size_day"
+        android:layout_marginTop="@dimen/margin_double"
+        app:srcCompat="@drawable/ic_clear_day" />
+
+    <TextView
+        android:id="@+id/weather_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_double"
+        android:textStyle="italic"
+        tools:text="Sunny" />
+
+    <TextView
+        android:id="@+id/temperature_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_quad"
+        android:textColor="@color/color_text_strong"
+        android:textSize="@dimen/text_size_temperature_day"
+        tools:text="22 °C" />
+
+    <TextView
+        android:id="@+id/temperature_night"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_regular"
+        tools:text="14 °C" />
+</LinearLayout>
